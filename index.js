@@ -24,7 +24,7 @@ function ES6Concat(inputTree, options) {
   options || (options = {});
 
   this.inputTree = inputTree;
-  if (wrapInEval in options) {
+  if ('wrapInEval' in options) {
     this.wrapInEval = options.wrapInEval;
   } else {
     this.wrapInEval = true;
