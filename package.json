@@ -1,6 +1,6 @@
 {
   "name": "broccoli-es6-concat",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "broccoli es6 concat compatible with 0.5",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
   "author": "abaizeau@freshbooks.com",
   "license": "MIT",
   "dependencies": {
-    "es6-module-transpiler-amd-formatter": "^0.1.0",
     "es6-module-transpiler": "^0.6.0",
+    "es6-module-transpiler-amd-formatter": "^0.1.0",
     "recast": "^0.6.6",
     "mkdirp": "^0.5.0",
     "broccoli-kitchen-sink-helpers": "^0.2.4",
